@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined CMakeFiles/QueueExercise.dir/main.cpp.o -o QueueExercise  ../lib/queue/libLibraryQueue.a 
