@@ -20,6 +20,7 @@ As an example implement the following in main():
 ```ruby
     New Queue<int>(2)
 ```
+```bash
 | Writing Thread | Queue | Reading Thread       |
 |----------------|-------|----------------------|
 | Push(1)        |   1   |                      |
@@ -34,6 +35,7 @@ As an example implement the following in main():
 |                |       | Pop()//Blocks        |
 | Push(5)        | 5     |                      |
 |                |       | Pop() -> 5//Release  |
+```
 
 ## How to Run Solution
 Run Makefile in linux
